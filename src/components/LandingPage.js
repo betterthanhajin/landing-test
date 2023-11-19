@@ -11,9 +11,45 @@ export function LandingPage() {
         cccc
       </div> */}
 
-      <div className="o-scroll" id="js-scroll" data-scroll-container>
-        <div data-scroll-section>
+      <div
+        className="o-scroll"
+        id="js-scroll"
+        data-scroll-container
+        style={{ background: "white" }}
+      >
+        <section data-scroll-section>
           <div className="o-container">
+            <div
+              className="video-container"
+              style={{
+                width: "100%",
+                height: "100%",
+                position: "absolute",
+                top: "0",
+                left: "0",
+                right: "0",
+              }}
+            >
+              <video
+                controls="controls"
+                muted="muted"
+                autoPlay
+                loop="loop"
+                playsInline="1"
+                className="videoItem"
+                webkit-playsinline="1"
+                style={{ contentVisibility: "auto" }}
+              >
+                <source
+                  src="https://dev.zipshowkorea.com/assets/Zipshowkorea2023.5508ea02.mp4"
+                  type="video/ogg"
+                ></source>
+                <source
+                  src="https://dev.zipshowkorea.com/assets/Zipshowkorea2023.5508ea02.mp4"
+                  type="video/mp4"
+                ></source>
+              </video>
+            </div>
             <header className="c-header" id="header">
               <div
                 className="c-header_heading"
@@ -22,6 +58,7 @@ export function LandingPage() {
                 data-scroll-position="top"
                 data-scroll-target="#header"
                 data-scroll-repeat
+                style={{ mixBlendMode: "difference" }}
               >
                 <div className="o-layout">
                   <div
@@ -37,8 +74,12 @@ export function LandingPage() {
                         href="https://locomotive.ca"
                         target="_blank"
                         rel="noopener noreferrer"
+                        style={{
+                          color: "white",
+                          mixBlendMode: "difference",
+                        }}
                       >
-                        Locomotive.ca
+                        VISUAL.RAON
                       </a>
                     </span>
                   </div>
@@ -51,21 +92,31 @@ export function LandingPage() {
                     data-scroll-target="#header"
                   >
                     <div className="u-text-right">
-                      <p className="u-label c-header_heading_label">
-                        v4.x – Edition
+                      <p
+                        className="u-label c-header_heading_label"
+                        style={{
+                          color: "white",
+                          mixBlendMode: "difference",
+                        }}
+                      >
+                        zipshowkorea.2023
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <h1 className="c-header_title o-h1" data-scroll>
+              <h1
+                className="c-header_title o-h1"
+                data-scroll
+                style={{ color: "#ffb521e0", mixBlendMode: "difference" }}
+              >
                 <span className="c-header_title_line">
                   <span
                     data-scroll
                     data-scroll-speed="3"
                     data-scroll-position="top"
                   >
-                    Locomotive
+                    Visual
                   </span>
                 </span>
                 <span className="c-header_title_line">
@@ -74,19 +125,19 @@ export function LandingPage() {
                     data-scroll-speed="2"
                     data-scroll-position="top"
                   >
-                    Scroll
+                    Raon
                   </span>
                 </span>
                 <span className="c-header_title_line -version u-white">
-                  <span
+                  <p
                     className="o-h1"
                     data-scroll
                     data-scroll-speed="3"
                     data-scroll-position="top"
                     data-scroll-delay="0.05"
                   >
-                    v
-                  </span>
+                    zipshow
+                  </p>
                   <span
                     className="o-h1"
                     data-scroll
@@ -94,7 +145,7 @@ export function LandingPage() {
                     data-scroll-position="top"
                     data-scroll-delay="0.05"
                   >
-                    4
+                    Korea
                   </span>
                   <span
                     className="o-h1"
@@ -111,9 +162,7 @@ export function LandingPage() {
                     data-scroll-speed="4"
                     data-scroll-position="top"
                     data-scroll-delay="0.05"
-                  >
-                    X
-                  </span>
+                  ></span>
                 </span>
               </h1>
               <hr
@@ -132,50 +181,50 @@ export function LandingPage() {
               </a>
             </header>
           </div>
-        </div>
+        </section>
 
         <section data-scroll-section>
-          <div className="o-container">
+          <div
+            className="o-container"
+            style={{
+              background: "white",
+              opacity: 0.7,
+              padding: "20px",
+            }}
+          >
             <div className="c-summary" data-scroll>
               <div className="o-layout -gutter">
                 <div className="o-layout_item u-2/5@from-medium">
                   <p className="c-summary_text">
-                    A simple scroll library used by developers at Locomotive.
-                    Built as a layer on top of <em>ayamflow's</em>{" "}
-                    <a
-                      href="https://github.com/ayamflow/virtual-scroll"
-                      target="_blank"
-                    >
-                      virtual-scroll
-                    </a>
-                    , it provides smooth scrolling with support for parallax
-                    effects, toggling classes, and triggering event listeners
-                    when elements are in the viewport.
+                    정확한 소통을 통한 깊이있는 분석으로 스토리를 찾아내고 각
+                    분야 전문가들이 모여 당신만의 비주얼로 완성합니다. 우리의
+                    상상으로부터 브랜드를 넘어 세상에 기억될 당신만의 스토리,
+                    비주얼라온이 만듭니다.
                   </p>
                 </div>
                 <div className="o-layout_item u-3/5@from-medium">
                   <ul className="c-summary_list">
                     <li className="c-summary_list_item u-label" data-scroll>
                       <a href="#speed-control" data-scroll-to>
-                        01. Speed Control
+                        01. 프로젝트
                         <span className="c-summary_list_icon u-icon">↓</span>
                       </a>
                     </li>
                     <li className="c-summary_list_item u-label" data-scroll>
                       <a href="#scroll-direction" data-scroll-to>
-                        02. Scroll direction
+                        02. 클라이언트
                         <span className="c-summary_list_icon u-icon">↓</span>
                       </a>
                     </li>
                     <li className="c-summary_list_item u-label" data-scroll>
                       <a href="#lerp-effect" data-scroll-to>
-                        03. Lerp effect
+                        03. 올인원시스템
                         <span className="c-summary_list_icon u-icon">↓</span>
                       </a>
                     </li>
                     <li className="c-summary_list_item u-label" data-scroll>
                       <a href="#fixed-elements" data-scroll-to>
-                        04. Fixed Elements
+                        04. 회사소개
                         <span className="c-summary_list_icon u-icon">↓</span>
                       </a>
                     </li>
@@ -188,6 +237,37 @@ export function LandingPage() {
 
         <section className="c-section" data-scroll-section>
           <div className="o-container" id="speed-control">
+            <div
+              className="video-container"
+              style={{
+                width: "100%",
+                height: "100%",
+                position: "absolute",
+                top: "0",
+                left: "0",
+                right: "0",
+              }}
+            >
+              <video
+                controls="controls"
+                muted="muted"
+                autoPlay
+                loop="loop"
+                playsInline="1"
+                className="videoItem"
+                webkit-playsinline="1"
+                style={{ contentVisibility: "auto" }}
+              >
+                <source
+                  src="https://dev.zipshowkorea.com/assets/Zipshowkorea2023.5508ea02.mp4"
+                  type="video/ogg"
+                ></source>
+                <source
+                  src="https://dev.zipshowkorea.com/assets/Zipshowkorea2023.5508ea02.mp4"
+                  type="video/mp4"
+                ></source>
+              </video>
+            </div>
             <div className="o-layout -gutter">
               <div className="o-layout_item u-2/5@from-medium">
                 <div
@@ -195,20 +275,30 @@ export function LandingPage() {
                   data-scroll
                   data-scroll-speed="-2"
                   data-scroll-call="test"
+                  style={{ mixBlendMode: "difference" }}
                 >
                   <div
                     className="c-section_infos_inner"
                     data-scroll
                     data-scroll-offset="200"
+                    style={{ color: "white" }}
                   >
-                    <h3>
+                    <h3 style={{ fontWeight: 900, fontSize: "2rem" }}>
                       01. <br />
-                      Speed control
+                      프로젝트
                     </h3>
                     <div className="c-sections_infos_text u-text">
-                      <p>
-                        Each element can be animated at a different speed. You
-                        get to choo-choo-choose!
+                      <p
+                        style={{
+                          fontFamily: "Noto Serif KR",
+                          fontSize: "1.5rem",
+                          fontWeight: 700,
+                        }}
+                      >
+                        정확한 소통을 통한 깊이있는 분석으로 스토리를 찾아내고
+                        각 분야 전문가들이 모여 당신만의 비주얼로 완성합니다.
+                        우리의 상상으로부터 브랜드를 넘어 세상에 기억될 당신만의
+                        스토리, 비주얼라온이 만듭니다.!
                       </p>
                     </div>
                   </div>
@@ -226,25 +316,28 @@ export function LandingPage() {
                     data-scroll-call="dynamicBackground"
                     data-scroll-repeat
                   >
-                    <div className="o-image" data-scroll>
+                    <div className="o-image">
                       <img
-                        className="c-speed-block_image"
-                        src="/locomotive01.jpg"
-                        alt="Locomotive image from unsplash"
+                        src="https://lh3.googleusercontent.com/qo-fBvfzVVsE8cihC7cseqrgtdCwp4NqjlvtVjfoWIxTUiBRe4W4mJW4VS4BfuvMdHJhdy_9mq58EWx5VC2rM1TGILgPVKJqzBp5kEPF3CZWSe740Vjxzko=w1920-h1081-n"
+                        className=""
+                        alt="마당을나온암탉_03.png"
+                        data-attach="true"
+                        data-img-original="OFF"
                       ></img>
                     </div>
                   </div>
-                  <p className="c-speed-block_title" data-scroll>
-                    Speed x2
-                  </p>
+                  {/* <p className="c-speed-block_title" data-scroll>
+                    마당을 나온 암탉
+                  </p> */}
                   <span
                     className="c-speed-block_bubble"
                     data-scroll
                     data-scroll-speed="4"
                     data-scroll-call="dynamicColor"
                     data-scroll-repeat
+                    style={{ color: "#d4c9c9" }}
                   >
-                    4x
+                    Create
                   </span>
                 </div>
               </div>
@@ -268,24 +361,26 @@ export function LandingPage() {
                       data-scroll-speed="-1.5"
                     >
                       <img
-                        className="c-speed-block_image"
-                        src="/locomotive02.jpg"
-                        alt="Locomotive image from unsplash"
+                        src="https://lh3.googleusercontent.com/1lCoK1Ygrf2hshYRBL5DfqKi2nlr_kgosMpK1vAHQi0YyLVCGxD3ygtQ3fE4ncI-MbsKa5vn10UqLCBikflkevxOtxJEf_y7wIYcSKZhlgtaQgdnKsi-vA=w1920-h1080-n"
+                        className="img-responsive"
+                        alt="가야_해상도시_01.jpg"
+                        data-attach="true"
+                        data-img-original="OFF"
                       ></img>
                     </div>
                   </div>
-                  <p className="c-speed-block_title" data-scroll>
+                  {/* <p className="c-speed-block_title" data-scroll>
                     Speed x4
-                  </p>
-                  <span
+                  </p> */}
+                  {/* <span
                     className="c-speed-block_bubble -right"
                     data-scroll
                     data-scroll-speed="1"
                     data-scroll-call="dynamicColor"
                     data-scroll-repeat
                   >
-                    1x
-                  </span>
+                    aaa
+                  </span> */}
                   <span
                     className="c-speed-block_bubble -left -bottom"
                     data-scroll
@@ -317,15 +412,17 @@ export function LandingPage() {
                           data-scroll-speed="-2"
                         >
                           <img
-                            className="c-speed-block_image"
-                            src="/locomotive03.jpg"
-                            alt="Locomotive image from unsplash"
+                            src="https://lh3.googleusercontent.com/DLm0UZOBF8ywNGR0eMzZnNeTeJn0XRPFoG3Vn0X9Qk0Y70sACwXaq_71Ypb_w_CE_quqgLEmRtxpD8FS4-pFKHAzbS3gqI4SFyNu7y5ndqCYj7NInhNhSg=w1920-h1080-n"
+                            className="img-responsive"
+                            alt="박수근미술관_파빌리온_01.png"
+                            data-attach="true"
+                            data-img-original="OFF"
                           ></img>
                         </div>
                       </div>
-                      <p className="c-speed-block_title" data-scroll>
+                      {/* <p className="c-speed-block_title" data-scroll>
                         Speed x6
-                      </p>
+                      </p> */}
                       <span
                         className="c-speed-block_bubble -left -top"
                         data-scroll
@@ -363,22 +460,65 @@ export function LandingPage() {
 
         <section className="c-section" data-scroll-section>
           <div className="o-container" id="scroll-direction">
+            <div
+              className="video-container"
+              style={{
+                width: "100%",
+                height: "100%",
+                position: "absolute",
+                top: "0",
+                left: "0",
+                right: "0",
+              }}
+            >
+              <video
+                controls="controls"
+                muted="muted"
+                autoPlay
+                loop="loop"
+                playsInline="1"
+                className="videoItem"
+                webkit-playsinline="1"
+                style={{ contentVisibility: "auto" }}
+              >
+                <source
+                  src="https://dev.zipshowkorea.com/assets/Zipshowkorea2023.5508ea02.mp4"
+                  type="video/ogg"
+                ></source>
+                <source
+                  src="https://dev.zipshowkorea.com/assets/Zipshowkorea2023.5508ea02.mp4"
+                  type="video/mp4"
+                ></source>
+              </video>
+            </div>
             <div className="c-direction-block_wrapper">
               <div
                 className="c-section_infos -padding"
                 data-scroll
                 data-scroll-sticky
                 data-scroll-target="#scroll-direction"
+                style={{ mixBlendMode: "difference" }}
               >
-                <div className="c-section_infos_inner" data-scroll>
-                  <h3>
+                <div
+                  className="c-section_infos_inner"
+                  data-scroll
+                  style={{ color: "white" }}
+                >
+                  <h3 style={{ fontWeight: 900, fontSize: "2rem" }}>
                     02. <br />
-                    Scroll direction
+                    클라이언트
                   </h3>
                   <div className="c-sections_infos_text u-text">
-                    <p>
-                      And if that wasn't enough, make 'em go backwards. Or
-                      upwards. Or downwards!
+                    <p
+                      style={{
+                        fontFamily: "Noto Serif KR",
+                        fontSize: "1.5rem",
+                        fontWeight: 700,
+                      }}
+                    >
+                      비주얼라온은 다양한 고객사들과 함께 크리에이티브한
+                      결과물을 만들어 내고 있습니다. 비주얼라온과 함께하는
+                      고객사들을 소개합니다.
                     </p>
                   </div>
                 </div>
@@ -392,7 +532,7 @@ export function LandingPage() {
                     data-scroll-speed="6"
                     data-scroll-target="#direction"
                   >
-                    I'm moving in this direction
+                    기획의 어려움
                   </span>
                 </div>
                 <div className="c-direction-block_item -two">
@@ -403,7 +543,7 @@ export function LandingPage() {
                     data-scroll-speed="-8"
                     data-scroll-target="#direction"
                   >
-                    And in this direction
+                    제작의 어려움
                   </span>
                 </div>
                 <div className="c-direction-block_item -three">
@@ -415,7 +555,7 @@ export function LandingPage() {
                     data-scroll-target="#direction"
                     data-scroll-delay="0.05"
                   >
-                    Sooo customizable. Right?
+                    설치의 어려움
                   </span>
                 </div>
                 <div className="c-direction-block_item -four">
@@ -426,7 +566,7 @@ export function LandingPage() {
                     data-scroll-speed="15"
                     data-scroll-target="#direction"
                   >
-                    I can also go in this direction
+                    유지보수의 어려움
                   </span>
                 </div>
                 <div className="c-direction-block_item -five">
@@ -438,7 +578,7 @@ export function LandingPage() {
                     data-scroll-target="#direction"
                     data-scroll-delay="0.05"
                   >
-                    Ok, enough!!!!
+                    모든걸 한번에 해결할 수 있는
                   </span>
                 </div>
               </div>
@@ -448,6 +588,37 @@ export function LandingPage() {
 
         <section className="c-section" data-scroll-section>
           <div className="o-container" id="lerp-effect">
+            <div
+              className="video-container"
+              style={{
+                width: "100%",
+                height: "100%",
+                position: "absolute",
+                top: "0",
+                left: "0",
+                right: "0",
+              }}
+            >
+              <video
+                controls="controls"
+                muted="muted"
+                autoPlay
+                loop="loop"
+                playsInline="1"
+                className="videoItem"
+                webkit-playsinline="1"
+                style={{ contentVisibility: "auto" }}
+              >
+                <source
+                  src="https://dev.zipshowkorea.com/assets/Zipshowkorea2023.5508ea02.mp4"
+                  type="video/ogg"
+                ></source>
+                <source
+                  src="https://dev.zipshowkorea.com/assets/Zipshowkorea2023.5508ea02.mp4"
+                  type="video/mp4"
+                ></source>
+              </video>
+            </div>
             <div className="o-layout">
               <div className="o-layout_item u-2/5@from-medium">
                 <div className="c-section_infos" data-scroll>
@@ -456,14 +627,20 @@ export function LandingPage() {
                     data-scroll
                     data-scroll-offset="200"
                   >
-                    <h3>
+                    <h3 style={{ fontWeight: 900, fontSize: "2rem" }}>
                       03. <br />
-                      Lerp elements
+                      올인원시스템
                     </h3>
                     <div className="c-sections_infos_text u-text">
-                      <p>
-                        Stagger those smooth animations using delays to create a
-                        rushing or dragging effect.
+                      <p
+                        style={{
+                          fontFamily: "Noto Serif KR",
+                          fontSize: "1.5rem",
+                          fontWeight: 700,
+                        }}
+                      >
+                        비주얼라온에서는 기획부터 제작, 설치 및 유지보수까지
+                        모든 과정을 올인원 시스템으로 진행하고 있습니다.
                       </p>
                     </div>
                   </div>
@@ -479,7 +656,7 @@ export function LandingPage() {
                     data-scroll-call="dynamicColor"
                     data-scroll-repeat
                   >
-                    01
+                    기획
                   </span>
                   <span
                     className="c-lerp-block_title"
@@ -487,7 +664,10 @@ export function LandingPage() {
                     data-scroll-delay="0.6"
                     data-scroll-speed="6"
                   >
-                    <span>I have a lerp</span>
+                    <span>
+                      클라이언트와 충분한 협의를 진행한 후 비주얼라온의
+                      크리에이티브를 결합하여 기획을 진행합니다
+                    </span>
                   </span>
                 </div>
                 <div className="c-lerp-block">
@@ -499,7 +679,7 @@ export function LandingPage() {
                     data-scroll-call="dynamicColor"
                     data-scroll-repeat
                   >
-                    02
+                    제작
                   </span>
                   <span
                     className="c-lerp-block_title"
@@ -508,8 +688,8 @@ export function LandingPage() {
                     data-scroll-speed="6"
                   >
                     <span>
-                      Me too! <br />
-                      And even more
+                      기획된 내용에 따라 다양한 프로그램을 활용하여 고퀄리티
+                      콘텐츠를 제작합니다
                     </span>
                   </span>
                 </div>
@@ -522,7 +702,7 @@ export function LandingPage() {
                     data-scroll-call="dynamicColor"
                     data-scroll-repeat
                   >
-                    03
+                    설치
                   </span>
                   <span className="c-lerp-block_title" data-scroll>
                     <span
@@ -530,9 +710,10 @@ export function LandingPage() {
                       data-scroll-delay="0.13"
                       data-scroll-speed="6"
                     >
-                      B
+                      설치될 공간과 제작된 콘텐츠에 적합한 장비,인테리어 등을
+                      통해 콘텐츠 활용도를 극대화합니다.
                     </span>
-                    <span
+                    {/* <span
                       data-scroll
                       data-scroll-delay="0.12"
                       data-scroll-speed="6"
@@ -587,7 +768,7 @@ export function LandingPage() {
                       data-scroll-speed="6"
                     >
                       r
-                    </span>
+                    </span> */}
                   </span>
                 </div>
                 <div className="c-lerp-block">
@@ -599,7 +780,7 @@ export function LandingPage() {
                     data-scroll-call="dynamicColor"
                     data-scroll-repeat
                   >
-                    04
+                    유지
                   </span>
                   <span
                     className="c-lerp-block_title"
@@ -607,7 +788,10 @@ export function LandingPage() {
                     data-scroll-delay="0.04"
                     data-scroll-speed="6"
                   >
-                    <span>Soooo smooooth</span>
+                    <span>
+                      체결한 계약 사항에 따라 적절한 유지보수 서비스를
+                      지원합니다.
+                    </span>
                   </span>
                 </div>
               </div>
@@ -621,6 +805,37 @@ export function LandingPage() {
           data-persistent
         >
           <div className="o-container" id="fixed-elements">
+            <div
+              className="video-container"
+              style={{
+                width: "100%",
+                height: "100%",
+                position: "absolute",
+                top: "0",
+                left: "0",
+                right: "0",
+              }}
+            >
+              <video
+                controls="controls"
+                muted="muted"
+                autoPlay
+                loop="loop"
+                playsInline="1"
+                className="videoItem"
+                webkit-playsinline="1"
+                style={{ contentVisibility: "auto" }}
+              >
+                <source
+                  src="https://dev.zipshowkorea.com/assets/Zipshowkorea2023.5508ea02.mp4"
+                  type="video/ogg"
+                ></source>
+                <source
+                  src="https://dev.zipshowkorea.com/assets/Zipshowkorea2023.5508ea02.mp4"
+                  type="video/mp4"
+                ></source>
+              </video>
+            </div>
             <div className="o-layout">
               <div className="o-layout_item u-2/5@from-medium">
                 <div
@@ -628,20 +843,30 @@ export function LandingPage() {
                   data-scroll
                   data-scroll-sticky
                   data-scroll-target="#fixed-elements"
+                  style={{ mixBlendMode: "difference" }}
                 >
                   <div
                     className="c-section_infos_inner"
                     data-scroll
                     data-scroll-offset="200"
+                    style={{ color: "white" }}
                   >
-                    <h3>
+                    <h3 style={{ fontWeight: 900, fontSize: "2rem" }}>
                       04. <br />
-                      Fixed elements
+                      회사소개
                     </h3>
                     <div className="c-sections_infos_text u-text">
-                      <p>
-                        Create slides that stick and untick to the viewport
-                        while scrolling through.
+                      <p
+                        style={{
+                          fontFamily: "Noto Serif KR",
+                          fontSize: "1.5rem",
+                          fontWeight: 700,
+                        }}
+                      >
+                        비주얼라온은 프로젝션 맵핑, 인터랙티브 체험, 가상현실,
+                        증강현실, 미디어파사드, 디지털 사이니지 등 콘텐츠와
+                        미디어의 결합을 통해 시각적인 즐거움을 주는 크리에이티브
+                        플랫폼 그룹입니다.
                       </p>
                     </div>
                   </div>
@@ -661,7 +886,8 @@ export function LandingPage() {
                     data-scroll-sticky
                     data-scroll-target="#fixed-target"
                     style={{
-                      backgroundImage: "url('/locomotive04.jpg')",
+                      backgroundImage:
+                        "url('https://lh3.googleusercontent.com/qyt9cZQ4Mz9w-P5KI0PiSUDXcQemcxDa6ndPoh-v4ZrC9qmw2ffUxnjYV2hzT4EQF78V8yRwbkR4LCzkp_HZj1N-_WE34FmyCMQtVfj9URxrb7yJO-ju=w650-h370-n')",
                     }}
                   ></div>
                 </div>
@@ -675,20 +901,20 @@ export function LandingPage() {
             <div className="c-cta">
               <h1 className="o-title" data-scroll>
                 <span className="o-title_line">
-                  <span>If you</span>
+                  <span>비주얼라온만의</span>
                 </span>
                 <span className="o-title_line">
-                  <span>Enjoyed</span>
+                  <span>컨텐츠를</span>
                 </span>
                 <span className="o-title_line u-white">
-                  <span>Scrolling</span>
+                  <span style={{ background: "black" }}>즐겨보세요</span>
                 </span>
               </h1>
               <hr className="c-cta_line" data-scroll data-scroll-offset="100" />
               <div className="c-cta_content">
                 <div className="o-layout -gutter">
                   <div className="o-layout_item u-2/5@from-medium">
-                    <p className="u-label">Github</p>
+                    <p className="u-label"></p>
                   </div>
                   <div className="o-layout_item u-3/5@from-medium">
                     <div className="c-cta_section">
@@ -697,11 +923,11 @@ export function LandingPage() {
                         data-scroll
                         data-scroll-offset="100"
                       >
-                        <h3>Check out Locomotive Scroll</h3>
+                        <h3>비주얼라온</h3>
                         <p>
-                          This library has evolved considerably over the years.
-                          The architecture and conventions shift according to
-                          our projects.
+                          인천광역시 부평구 부평대로 293, 905호 Copyright 2023
+                          <br />
+                          (주)집쇼코리아 all rights reserved.
                         </p>
                         <p>
                           Visit the GitHub repository page for a complete
@@ -724,7 +950,7 @@ export function LandingPage() {
                             <use xlinkHref="dist/images/sprite.svg#github"></use>
                           </svg>
                         </span>
-                        Check on Github
+                        VisualRaon
                         <span className="o-button_arrow u-icon">→</span>
                       </a>
                     </div>
@@ -746,13 +972,13 @@ export function LandingPage() {
                         <p>
                           You like the font used on this page? Well this is your
                           lucky day. You can get it on{" "}
-                          <a
+                          {/* <a
                             className="o-link -underline"
                             href="https://pangrampangram.com/"
                             target="_blank"
                           >
                             pangrampangram.com
-                          </a>
+                          </a> */}
                           ! Thanks to our good friend Mathieu Desjardins ❤️
                         </p>
                       </div>
@@ -790,16 +1016,19 @@ export function LandingPage() {
             <div className="c-damn">
               <h1 className="o-title" data-scroll>
                 <span className="o-title_line">
-                  <span>Damn</span>
+                  <span>깊이있는분석</span>
                 </span>
                 <span className="o-title_line">
-                  <span>You really</span>
+                  <span>창의적인</span>
                 </span>
                 <span className="o-title_line">
-                  <span>like to</span>
+                  <span>당신만의 스토리</span>
                 </span>
                 <span className="o-title_line u-white">
-                  <span>scroll</span>
+                  <span>
+                    비주얼라온이
+                    <br /> 만듭니다
+                  </span>
                 </span>
               </h1>
             </div>

@@ -778,7 +778,7 @@ h6 {
   opacity: 0.75;
 }
 .o-image img {
-  opacity: 0;
+  opacity: 1;
   transform: scale(1.4);
   transition: opacity 1.2s cubic-bezier(0.215, 0.61, 0.355, 1),
     transform 1.2s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -1299,7 +1299,7 @@ html:not(.has-scroll-smooth) .c-fixed {
   top: auto;
 }
 .c-speed-block_bubble:before {
-  background-color: #272727;
+  background-color: #feff1f;
   border-radius: 50%;
   bottom: 0;
   content: "";
@@ -1391,7 +1391,8 @@ html:not(.has-scroll-smooth) .c-fixed {
   white-space: nowrap;
 }
 .c-direction-block_item span {
-  background-color: #fff;
+  background-color: #eb033e;
+  color: white;
   display: block;
   padding: 0 20px;
   white-space: nowrap;
