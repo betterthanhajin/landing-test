@@ -1,4 +1,5 @@
 import "./App.css";
+import "./sample.css";
 import React, { useRef } from "react";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import { LandingPage } from "./components/LandingPage";
@@ -6,7 +7,7 @@ function App() {
   const containerRef = useRef(null);
   return (
     <>
-      <link rel="stylesheet" href="/sample.css" />
+      {/* <link rel="stylesheet" href="/sample.css" /> */}
       <LocomotiveScrollProvider
         options={{
           smooth: true,

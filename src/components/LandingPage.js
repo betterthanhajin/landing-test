@@ -229,7 +229,7 @@ export function LandingPage() {
                     <div className="o-image" data-scroll>
                       <img
                         className="c-speed-block_image"
-                        src="dist/images/locomotive01.jpg"
+                        src="/locomotive01.jpg"
                         alt="Locomotive image from unsplash"
                       ></img>
                     </div>
@@ -269,7 +269,7 @@ export function LandingPage() {
                     >
                       <img
                         className="c-speed-block_image"
-                        src="dist/images/locomotive02.jpg"
+                        src="/locomotive02.jpg"
                         alt="Locomotive image from unsplash"
                       ></img>
                     </div>
@@ -318,7 +318,7 @@ export function LandingPage() {
                         >
                           <img
                             className="c-speed-block_image"
-                            src="dist/images/locomotive03.jpg"
+                            src="/locomotive03.jpg"
                             alt="Locomotive image from unsplash"
                           ></img>
                         </div>
@@ -661,7 +661,7 @@ export function LandingPage() {
                     data-scroll-sticky
                     data-scroll-target="#fixed-target"
                     style={{
-                      backgroundImage: "url('dist/images/locomotive04.jpg')",
+                      backgroundImage: "url('/locomotive04.jpg')",
                     }}
                   ></div>
                 </div>

@@ -303,8 +303,8 @@ button:hover {
   font-family: Neue Montreal;
   font-style: normal;
   font-weight: 500;
-  src: url(../fonts/NeueMontreal-Medium.woff2) format("woff2"),
-    url(../fonts/NeueMontreal-Medium.woff) format("woff");
+  src: url(./fonts/NeueMontreal-Medium.woff2) format("woff2"),
+    url(./fonts/NeueMontreal-Medium.woff) format("woff");
 }
 html {
   color: #222;
